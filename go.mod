@@ -25,7 +25,6 @@ require (
 	github.com/greenplum-db/gp-common-go-libs v1.0.4
 	github.com/hashicorp/golang-lru v0.5.4
 	github.com/jackc/pglogrepl v0.0.0-20240307033717-828fbfe908e9
-	github.com/jackc/pgx v3.6.0+incompatible
 	github.com/jackc/pgx/v5 v5.5.4
 	github.com/jedib0t/go-pretty v4.3.0+incompatible
 	github.com/magiconair/properties v1.8.1 // indirect
@@ -67,6 +66,8 @@ require (
 	golang.org/x/sys v0.22.0
 	gopkg.in/yaml.v3 v3.0.1
 )
+
+require github.com/jackc/pgx v3.1.0+incompatible // indirect
 
 require (
 	cloud.google.com/go v0.65.0 // indirect
